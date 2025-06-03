@@ -6,3 +6,6 @@ This project is a shiny dashboard that allows the user access to all foreign exc
 - Data Collection.ipnyb: Pulls the JSON data from ExchangeRate-API and converts it into a workable pandas data frame. Also can find EDA to find currencies that went defunct within that time frame. 
 
 Also within this file (and deployed with the Flask API) is the ex_rate_full.csv file containing all daily USD to [All other traded currencies] from January 1st, 2021 to May 20th, 2025.
+
+Shiny App Link:
+https://rw1djq-nils-berzins.shinyapps.io/forex-dashboard-stat418-final/
