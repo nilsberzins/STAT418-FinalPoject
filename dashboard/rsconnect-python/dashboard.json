@@ -2,10 +2,10 @@
     "https://api.shinyapps.io": {
         "server_url": "https://api.shinyapps.io",
         "filename": "C:\\Users\\nils\\OneDrive\\Desktop\\UCLA\\Spring Quarter 2025\\STAT 418\\STAT418-FinalPoject\\dashboard",
-        "app_url": "https://rw1djq-nils-berzins.shinyapps.io/forex-dashboard-final/",
-        "app_id": 14869113,
+        "app_url": "https://rw1djq-nils-berzins.shinyapps.io/forex-dashboard-stat418-final/",
+        "app_id": 14869278,
         "app_guid": null,
-        "title": "Forex-Dashboard-Final",
+        "title": "Forex-Dashboard-STAT418-FINAL",
         "app_mode": "python-shiny",
         "app_store_version": 1
     }
