@@ -19,7 +19,8 @@ Users can directly access the Flask API using the curl command structure below:
 
 ***Example Output***
 
-```{
+```
+{
   "forecast": [
     0.7854485876053839,
     0.7853249499222646,
