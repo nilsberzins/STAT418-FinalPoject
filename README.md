@@ -10,7 +10,8 @@ Also within this file (and deployed with the Flask API) is the ex_rate_full.csv 
 **How to access the Flask API**
 
 Users can directly access the Flask API using the curl command structure below:
-bash```
+
+```
 curl -X POST https://forex-forecast-173754053169.us-west1.run.app/forecast -H "Content-Type: application/json" -d '{"base_code": "USD", "quote_code": "GBP", "start_date": "2023-01-01", "end_date": "2024-01-01", "n_periods": 10}' ```
 
 See the "dashboard" directory for the frontend Shiny scripts. 
