@@ -33,7 +33,8 @@ Users can directly access the Flask API using the curl command structure below:
     0.7844594861404296,
     0.7843358484573103
   ]
-}```
+}
+```
 
 
 See the "dashboard" directory for the frontend Shiny scripts. 
