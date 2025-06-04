@@ -15,6 +15,24 @@ Users can directly access the Flask API using the curl command structure below:
 ```curl -X POST https://forex-forecast-173754053169.us-west1.run.app/forecast -H "Content-Type: application/json" -d '{"base_code": "[CURRENCY CODE]", "quote_code": "[CURRENCY CODE]", "start_date": "[YYYY-MM-DD]", "end_date": "[YYYY-MM-DD]", "n_periods": [INT]}' ```
 
 ***Example***
+```curl -X POST https://forex-forecast-173754053169.us-west1.run.app/forecast -H "Content-Type: application/json" -d '{"base_code": "USD", "quote_code": "GBP", "start_date": "2023-01-01", "end_date": "2024-01-01", "n_periods": 10}'```
+
+***Example Output***
+
+```{
+  "forecast": [
+    0.7854485876053839,
+    0.7853249499222646,
+    0.7852013122391454,
+    0.7850776745560261,
+    0.7849540368729068,
+    0.7848303991897875,
+    0.7847067615066682,
+    0.7845831238235489,
+    0.7844594861404296,
+    0.7843358484573103
+  ]
+}```
 
 
 See the "dashboard" directory for the frontend Shiny scripts. 
